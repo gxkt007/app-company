@@ -1,0 +1,76 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/monitor/monitor",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/equipment/equipment",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#00aaff",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "/static/tabBar/home.png",
+				"selectedIconPath": "/static/tabBar/clickhome.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/monitor/monitor",
+				"iconPath": "/static/tabBar/monitor.png",
+				"selectedIconPath": "/static/tabBar/clickmonitor.png",
+				"text": "监测"
+			},
+			{
+				"pagePath": "pages/equipment/equipment",
+				"iconPath": "/static/tabBar/equipment.png",
+				"selectedIconPath": "/static/tabBar/clickequipment.png",
+				"text": "设备"
+			},
+			{
+				"pagePath": "pages/notice/notice",
+				"iconPath": "/static/tabBar/notice.png",
+				"selectedIconPath": "/static/tabBar/clicknotice.png",
+				"text": "警告"
+			}
+	
+		]
+	
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,1 @@
+<view><u-button vue-id="f2b9266c-1" type="primary" text="确定" bind:__l="__l"></u-button><u-tag vue-id="f2b9266c-2" text="标签" plain="{{true}}" size="mini" type="warning" bind:__l="__l"></u-tag>监测</view>

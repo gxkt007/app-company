@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/monitor/monitor",
+    "pages/equipment/equipment",
+    "pages/notice/notice"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00aaff",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/static/tabBar/home.png",
+        "selectedIconPath": "/static/tabBar/clickhome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/monitor/monitor",
+        "iconPath": "/static/tabBar/monitor.png",
+        "selectedIconPath": "/static/tabBar/clickmonitor.png",
+        "text": "监测"
+      },
+      {
+        "pagePath": "pages/equipment/equipment",
+        "iconPath": "/static/tabBar/equipment.png",
+        "selectedIconPath": "/static/tabBar/clickequipment.png",
+        "text": "设备"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "iconPath": "/static/tabBar/notice.png",
+        "selectedIconPath": "/static/tabBar/clicknotice.png",
+        "text": "警告"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

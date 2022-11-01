@@ -1,0 +1,1 @@
+<view>警告<qiun-data-charts vue-id="6199cf00-1" type="column" chartData="{{chartData}}" bind:__l="__l"></qiun-data-charts></view>
